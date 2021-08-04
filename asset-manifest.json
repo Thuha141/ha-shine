@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ha-shine/static/css/main.51bea64b.chunk.css",
+    "main.js": "/ha-shine/static/js/main.1cb7d5f4.chunk.js",
+    "main.js.map": "/ha-shine/static/js/main.1cb7d5f4.chunk.js.map",
+    "runtime-main.js": "/ha-shine/static/js/runtime-main.e190dfcc.js",
+    "runtime-main.js.map": "/ha-shine/static/js/runtime-main.e190dfcc.js.map",
+    "static/js/2.bc8a4634.chunk.js": "/ha-shine/static/js/2.bc8a4634.chunk.js",
+    "static/js/2.bc8a4634.chunk.js.map": "/ha-shine/static/js/2.bc8a4634.chunk.js.map",
+    "static/js/3.3b1e82b0.chunk.js": "/ha-shine/static/js/3.3b1e82b0.chunk.js",
+    "static/js/3.3b1e82b0.chunk.js.map": "/ha-shine/static/js/3.3b1e82b0.chunk.js.map",
+    "index.html": "/ha-shine/index.html",
+    "static/css/main.51bea64b.chunk.css.map": "/ha-shine/static/css/main.51bea64b.chunk.css.map",
+    "static/js/2.bc8a4634.chunk.js.LICENSE.txt": "/ha-shine/static/js/2.bc8a4634.chunk.js.LICENSE.txt",
+    "static/media/avatar01.60b859a8.png": "/ha-shine/static/media/avatar01.60b859a8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e190dfcc.js",
+    "static/js/2.bc8a4634.chunk.js",
+    "static/css/main.51bea64b.chunk.css",
+    "static/js/main.1cb7d5f4.chunk.js"
+  ]
+}
