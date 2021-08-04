@@ -1,0 +1,18 @@
+@import "../../assets/itcss/01-settings/pacing.scss";
+
+.mySkill {
+
+    padding: 95px 131px;
+
+    .mySkill--title {
+        text-align: center;
+    }
+    .mySkill--container--experince,
+    .mySkill--container--percent{
+        display: flex;
+
+        width: 100%;
+
+        margin-top: $pacingMarginTopCard__30;
+    }
+}

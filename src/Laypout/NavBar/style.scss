@@ -1,0 +1,88 @@
+@import "../../assets/itcss/01-settings/color.scss";
+@import "../../assets/itcss/01-settings/font.scss";
+@import "../../assets/itcss/05-objects/box-shadow.scss";
+
+.navBar {
+    position: fixed;
+    top: 20px;
+    right: 0;
+    z-index: 999;
+    
+    margin-right: 20px;
+
+    display: flex;
+
+    .navBar__icon {
+        font-size: 20px;
+        color: #fff;
+
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+
+        background-color: #4c84ff;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        cursor: pointer;
+
+        box-shadow: $boxShadowMain__02;
+        position: absolute;
+        top: 1px;
+        right: -3px;
+        z-index: 1;
+    }
+
+
+    .navBar__main--mobile{
+        display: none;
+    }
+
+
+
+    .navBar__main--desktop{
+        background-color: $buttonColor;
+        box-shadow: $boxShadowMain__02;
+        border: 1px solid $mainColor;
+
+        height: 55px;
+        border-radius: 50px 50px 50px 50px;;
+        padding-right: 40px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        transition: 1s ease-in-out;
+        
+        ul{
+            padding: 5px 20px;
+            li{
+                display: inline-block;
+                margin-right: 25px;
+
+                font-size: $fontTitile__16;
+                font-weight: 600;
+                text-transform: uppercase;
+
+                cursor: pointer;
+            }
+        }
+
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .hidden{
+        visibility: hidden !important;
+        opacity: 0 !important;
+        transform: translateX(5px) !important;
+    }
+
+    .sitHere{
+        color: $mainColor;
+    }
+
+}

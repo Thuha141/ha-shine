@@ -1,0 +1,9 @@
+@use '../01-settings/color.scss';
+@use '../01-settings/font.scss';
+
+h2{
+    font-size: $fontTititle__21;
+    color: $fontStrongColor;
+    
+    font-weight: 500;
+}

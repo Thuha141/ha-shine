@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,kBAAkB,CAAC;EACf,UAAU,ECDa,IAAI;CDM9B;;AAND,AAGI,kBAHc,CAGd,IAAI,CAAC;EACD,KAAK,EAAE,OAAO;CACjB",
+    "sources": [
+        "typewriterEffect.scss",
+        "../../assets/itcss/01-settings/pacing.scss"
+    ],
+    "names": [],
+    "file": "typewriterEffect.css"
+}

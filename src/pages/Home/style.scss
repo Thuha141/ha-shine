@@ -1,0 +1,129 @@
+@import "../../assets/itcss/01-settings/pacing.scss";
+@import "../../assets/itcss/01-settings/color.scss";
+@import "../../assets/itcss/01-settings/font.scss";
+@import "../../assets/itcss/05-objects/border-radius.scss";
+@import "../../assets/itcss/05-objects/box-shadow.scss";
+
+.pageHome {
+    display: flex;
+    align-items: center;
+
+    padding:95px 131px;
+
+    .homeRight {
+        width: 50%;
+        padding: 0px 15px;
+        border-radius: $borderRadius__10;
+
+        box-shadow: $boxShadowMain__02;
+
+        overflow: hidden;
+
+        position: relative;
+        z-index: 1;
+        &::before {
+            position: absolute;
+            content: "";
+            width: 100%;
+            height: 200%;
+            top: -100px;
+            left: -100px;
+            background: #4c84ff;
+            transform: rotate(-30deg);
+            z-index: -1;
+        }
+        .homeRight--avatar {
+            padding: 20px;
+            border-radius: $borderRadius__10;
+
+            img {
+                max-width: 100%;
+                border-radius: $borderRadius__10;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .homeLeft {
+        width: 50%;
+
+        padding: 0px 30px;
+
+        h1,
+        .homeLeft--caption {
+            margin-top: $pacingMarginTopParam__16;
+        }
+
+        .homeLeft--iconHello {
+            background-color: $mainColor;
+            color: $buttonColor;
+
+            text-align: center;
+
+            padding: 5px;
+
+            width: 50px;
+
+            font-size: $fontTitile__20;
+
+            position: relative;
+            &::after {
+                content: "";
+
+                width: 0;
+                height: 0;
+                border-top: 15px solid $mainColor;
+                border-right: 15px solid transparent;
+
+                position: absolute;
+                left: 3px;
+                bottom: -12px;
+            }
+        }
+
+        .homeLeft--button {
+            border: 1px solid $mainColor;
+            transition: 1s ease-in-out;
+
+            svg {
+                fill: #fff;
+                width: 24px;
+                height: auto;
+                transition: 1s ease-in-out;
+            }
+
+            position: relative;
+            &::before {
+                content: "";
+                background-color: #4c85ff;
+                width: 10%;
+                height: 100%;
+
+                position: absolute;
+                left: 0;
+                bottom: 0;
+
+                transition: 0.5s ease-in-out;
+
+                opacity: 0;
+            }
+
+            &:hover {
+                background-color: $buttonColor;
+                color: $mainColor;
+
+                svg {
+                    fill: $mainColor;
+                }
+
+                &::before {
+                    width: 100%;
+                    background-color: #4c85ff00;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+// ======================= hover ==========================

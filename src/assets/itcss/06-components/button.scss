@@ -1,0 +1,44 @@
+@use '../01-settings/color.scss';
+@use '../01-settings/font.scss';
+@use '../05-objects/box-shadow.scss';
+@use '../05-objects/border-radius.scss';
+@use '../01-settings/pacing.scss';
+
+
+@mixin buttonMain {
+    padding: 8px 30px;
+
+    color: $buttonColor;
+
+    background-color: $mainColor;
+
+    font-size: $fontTitile__16;
+
+    border: none;
+
+    cursor: pointer;
+
+    box-shadow: $boxShadowMain__01;
+
+    border-radius: $buttonBorderRadius__4;
+
+    display: flex;
+    align-items: center;
+
+    font-weight: 600;
+
+    span {
+        margin-right: 10px;
+    }
+
+    margin-top: $pacingMarginTopButton__27;
+}
+
+button {
+    @include buttonMain();
+
+    .iconButton {
+        width: 24px;
+        height: auto;
+    }
+}

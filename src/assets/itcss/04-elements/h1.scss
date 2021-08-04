@@ -1,0 +1,13 @@
+@use '../01-settings/font.scss';
+@use '../01-settings/color.scss';
+
+h1{
+    font-size: $fontHeader__45;
+
+    font-weight: 900;
+    color: $fontStrongColor;
+
+    span{
+        color: $mainColor;
+    }
+}
